@@ -20,69 +20,84 @@
       </div>
     </header>
 
-    <!-- Contact Section -->
     <section
-      class="relative bg-cover bg-center"
+      class="relative bg-cover bg-center min-h-screen text-white"
       style="background-image: url('src/img/page6/DSC05915.JPG')"
     >
       <div
-        class="bg-black bg-opacity-60 w-full h-full py-12 px-4 md:px-20 grid md:grid-cols-2 gap-10"
+        class="w-full h-full bg-black bg-opacity-60 px-4 py-12 md:py-20 md:px-24 grid md:grid-cols-2 gap-12"
       >
-        <!-- Contact Form -->
+        <!-- FORM -->
         <div>
-          <h2 class="text-2xl font-bold mb-6">CONTACT US</h2>
-          <form class="space-y-4">
+          <h2 class="text-3xl font-bold mb-6">CONTACT US</h2>
+          <form class="space-y-5">
             <input
               type="text"
               placeholder="Your Name*"
-              class="w-full px-4 py-2 rounded text-black"
+              class="w-full px-4 py-3 rounded-md bg-white text-black placeholder-gray-500"
             />
             <input
               type="email"
               placeholder="Your Email*"
-              class="w-full px-4 py-2 rounded text-black"
+              class="w-full px-4 py-3 rounded-md bg-white text-black placeholder-gray-500"
             />
             <input
               type="text"
               placeholder="Your Phone*"
-              class="w-full px-4 py-2 rounded text-black"
+              class="w-full px-4 py-3 rounded-md bg-white text-black placeholder-gray-500"
             />
             <textarea
               rows="5"
-              placeholder="Your Message*"
-              class="w-full px-4 py-2 rounded text-black"
+              placeholder="Your Massage*"
+              class="w-full px-4 py-3 rounded-md bg-white text-black placeholder-gray-500"
             ></textarea>
             <button
               type="submit"
-              class="bg-[#b11919] px-6 py-2 rounded hover:bg-red-800"
+              class="bg-[#B11919] text-white font-semibold px-8 py-3 rounded-md hover:bg-red-800 transition duration-200"
             >
-              SEND MESSAGE
+              SEND MASSAGE
             </button>
           </form>
         </div>
 
-        <!-- Info & Social Media -->
-        <div class="space-y-6">
-          <div>
-            <p class="flex items-center space-x-2">
-              <span>📱</span>
-              <span>082213003434</span>
-            </p>
-            <p class="flex items-start space-x-2 mt-2">
-              <span>📍</span>
-              <span
-                >Bengkel utama:<br />Jl. H.M. Nasuhi no.151/61, Karang Pamulang,
-                Mandalajati, Bandung 40195.</span
-              >
-            </p>
-          </div>
+        <!-- INFO -->
+        <div class="bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-lg">
+          <div class="space-y-4">
+            <div class="flex items-start space-x-3">
+              <span class="text-xl">📱</span>
+              <div class="text-sm">
+                <p class="font-bold">082213003434</p>
+              </div>
+            </div>
 
-          <div>
-            <h3 class="text-xl font-bold mt-4 mb-2">FOLLOW US</h3>
-            <div class="space-y-2">
-              <p>@vespuciworkshop (Instagram)</p>
-              <p>@vespuciworkshop (Facebook)</p>
-              <p>VESPUCIWORKSHOP (YouTube)</p>
+            <div class="flex items-start space-x-3">
+              <span class="text-xl">📍</span>
+              <div class="text-sm">
+                <p class="font-bold">Bengkel utama:</p>
+                <p>
+                  Jl. A.H. Nasution No.151/61, Karang Pamulang,<br />
+                  Mandalajati, Bandung 40195.
+                </p>
+              </div>
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="mt-8">
+              <h3 class="text-lg font-bold mb-4">FOLLOW US</h3>
+              <div class="space-y-2 text-sm">
+                <div class="flex items-center space-x-2">
+                  <span>📷</span>
+                  <p>@vespuciworkshop</p>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <span>🎵</span>
+                  <p>@vespuciworkshop</p>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <span>▶️</span>
+                  <p class="font-semibold">VESPUCIWORKSHOP</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
