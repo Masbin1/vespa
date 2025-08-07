@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vespuci Workshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-black text-white">
+    <!-- Navbar -->
+    <header class="bg-[#B90E1A] py-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+        <img src="src/img/logo.png" alt="Logo Vespuci" class="h-10" />
+        <nav class="space-x-8 text-sm font-semibold uppercase">
+          <a href="#" class="hover:underline">Home</a>
+          <a href="#" class="hover:underline">Profile</a>
+          <a href="#" class="hover:underline">Parts & Service</a>
+          <a href="#" class="hover:underline">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative h-screen bg-cover bg-center flex items-center justify-center text-center"
+      style="background-image: url('src/img/page1/hero.JPG')"
+    >
+      <div class="bg-black bg-opacity-50 px-4 py-8">
+        <h1 class="text-5xl font-extrabold leading-tight">
+          Your Solution,<br />Our Creation
+        </h1>
+        <button
+          class="mt-6 px-6 py-2 bg-[#B90E1A] text-white font-semibold rounded-full hover:bg-red-800 transition"
+        >
+          Explore Now
+        </button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-[#B90E1A] py-16 px-6">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="text-sm leading-relaxed">
+            Vespuci Workshop adalah bengkel spesialis Vespa matic yang berbasis
+            di Bandung. Vespuci menawarkan layanan servis, modifikasi, serta
+            produk orisinal berupa sparepart dan apparel.
+          </p>
+          <button
+            class="mt-6 flex items-center gap-2 bg-white text-[#B90E1A] font-semibold px-4 py-2 rounded-full hover:bg-gray-200 transition"
+          >
+            Show More <span>➤</span>
+          </button>
+        </div>
+        <div>
+          <img
+            src="src/img/page1/1.JPG"
+            alt="Produk"
+            class="rounded shadow-md"
+          />
+        </div>
+      </div>
+      <img src="src/img/checkboard.png" alt="Checkerboard" class="w-full" />
+    </section>
+    <!-- Footer -->
+    <footer class="bg-black text-white text-xs py-4 px-6">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <p>©2025 Designed by Ahmad Setiawan</p>
+        <div class="space-x-4 text-lg">
+          <a href="#" title="Instagram">👤</a>
+          <a href="#" title="WhatsApp">📞</a>
+          <a href="#" title="Chat">💬</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
