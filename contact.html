@@ -3,117 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Service Pack - Vespuci</title>
+    <title>Contact Us - Vespuci</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="font-sans text-white bg-[#b11919]">
+  <body class="font-sans text-white bg-black">
     <!-- Header -->
-    <header
-      class="bg-[#b11919] text-white flex items-center justify-between px-6 py-4"
-    >
-      <img src="src/img/logo.png" alt="Vespuci Logo" class="h-10" />
-      <nav class="space-x-4">
-        <a href="#" class="hover:underline">Home</a>
-        <a href="#" class="hover:underline">Profile</a>
-        <a href="#" class="hover:underline">Parts & Service</a>
-        <a href="#" class="hover:underline">Contact</a>
-      </nav>
+    <header class="bg-[#B90E1A] py-4">
+      <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+        <img src="src/img/logo.png" alt="Logo Vespuci" class="h-10" />
+        <nav class="space-x-8 text-sm font-semibold uppercase">
+          <a href="index.html" class="hover:underline text-black">Home</a>
+          <a href="profile.html" class="hover:underline">Profile</a>
+          <a href="product.html" class="hover:underline">Parts & Service</a>
+          <a href="contact.html" class="hover:underline">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="relative">
-      <img
-        src="src/img/page5/hero.JPG"
-        alt="Service Hero"
-        class="w-full object-cover h-[400px]"
-      />
-      <h1 class="absolute bottom-6 left-6 text-4xl font-bold drop-shadow-lg">
-        SERVICE PACK
-      </h1>
+    <!-- Contact Section -->
+    <section
+      class="relative bg-cover bg-center"
+      style="background-image: url('src/img/page6/DSC05915.JPG')"
+    >
+      <div
+        class="bg-black bg-opacity-60 w-full h-full py-12 px-4 md:px-20 grid md:grid-cols-2 gap-10"
+      >
+        <!-- Contact Form -->
+        <div>
+          <h2 class="text-2xl font-bold mb-6">CONTACT US</h2>
+          <form class="space-y-4">
+            <input
+              type="text"
+              placeholder="Your Name*"
+              class="w-full px-4 py-2 rounded text-black"
+            />
+            <input
+              type="email"
+              placeholder="Your Email*"
+              class="w-full px-4 py-2 rounded text-black"
+            />
+            <input
+              type="text"
+              placeholder="Your Phone*"
+              class="w-full px-4 py-2 rounded text-black"
+            />
+            <textarea
+              rows="5"
+              placeholder="Your Message*"
+              class="w-full px-4 py-2 rounded text-black"
+            ></textarea>
+            <button
+              type="submit"
+              class="bg-[#b11919] px-6 py-2 rounded hover:bg-red-800"
+            >
+              SEND MESSAGE
+            </button>
+          </form>
+        </div>
+
+        <!-- Info & Social Media -->
+        <div class="space-y-6">
+          <div>
+            <p class="flex items-center space-x-2">
+              <span>📱</span>
+              <span>082213003434</span>
+            </p>
+            <p class="flex items-start space-x-2 mt-2">
+              <span>📍</span>
+              <span
+                >Bengkel utama:<br />Jl. H.M. Nasuhi no.151/61, Karang Pamulang,
+                Mandalajati, Bandung 40195.</span
+              >
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold mt-4 mb-2">FOLLOW US</h3>
+            <div class="space-y-2">
+              <p>@vespuciworkshop (Instagram)</p>
+              <p>@vespuciworkshop (Facebook)</p>
+              <p>VESPUCIWORKSHOP (YouTube)</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Introduction -->
-    <section class="bg-[#b11919] px-6 py-8 text-center text-sm">
-      <p class="max-w-4xl mx-auto">
-        VESPUCI memberikan kemudahan dalam melakukan pemeliharaan dan perawatan
-        motor Anda. Kami hadir dengan menyediakan layanan perawatan berkualitas
-        dan penggantian suku cadang dengan pilihan beragam bagi motor Anda.
-      </p>
+    <section class="bg-[#b11919] text-center text-sm">
+      <img src="src/img/checkboard.png" alt="Checkerboard" class="w-full" />
     </section>
 
-    <!-- Service Packages Grid -->
-    <section
-      class="bg-white text-black px-4 py-10 grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
-    >
-      <img
-        src="src/img/page5/1.1.jpg"
-        alt="Regular Service 1"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.2.jpg"
-        alt="Regular Service 2"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.3.jpg"
-        alt="Chamber Service 1"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.4.jpg"
-        alt="Chamber Service 2"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.5.jpg"
-        alt="Transmission Service 1"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.6.jpg"
-        alt="Transmission Service 2"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.7.jpg"
-        alt="Additional Service"
-        class="w-full rounded shadow"
-      />
-      <img
-        src="src/img/page5/1.8.JPG"
-        alt="Product Detail"
-        class="w-full rounded shadow"
-      />
-    </section>
-
-    <!-- Additional Service Info -->
-    <section class="bg-white px-6 py-10 text-black text-sm">
-      <p class="text-center max-w-2xl mx-auto">
-        Selain memberikan kemudahan dalam melakukan pemeliharaan dan perawatan
-        motor Anda. Kami juga menyediakan produk parts orisinal buatan kami
-        yaitu Fabrica.
-      </p>
-      <div class="flex justify-center mt-4">
-        <button
-          class="bg-red-700 text-white px-4 py-2 rounded hover:bg-red-800"
-        >
-          Show More
-        </button>
+    <footer class="bg-black text-white text-xs py-4 px-6">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <p>©2025 Designed by Ahmad Setiawan</p>
+        <div class="space-x-4 text-lg">
+          <a href="#" title="Instagram">👤</a>
+          <a href="#" title="WhatsApp">📞</a>
+          <a href="#" title="Chat">💬</a>
+        </div>
       </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-[#b11919] px-6 py-8 text-white text-sm relative">
-      <div class="text-center">
-        <p class="mb-2">*Price Updated July 2024.</p>
-        <p>&copy;2024 Service Pack Vespuci</p>
-      </div>
-      <img
-        src="src/img/checkboard.png"
-        alt="Checkerboard"
-        class="absolute bottom-0 left-0 w-full h-10 object-cover"
-      />
     </footer>
   </body>
 </html>
