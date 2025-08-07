@@ -23,16 +23,22 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative">
-      <img
-        src="src/img/page5/hero.JPG"
-        alt="Service Hero"
-        class="w-full object-cover h-[400px]"
-      />
-      <h1 class="absolute bottom-6 left-6 text-4xl font-bold drop-shadow-lg">
-        SERVICE PACK
-      </h1>
-    </section>
+<section class="relative h-[400px] overflow-hidden">
+  <!-- Gambar Hero -->
+  <img
+    src="src/img/page5/hero.JPG"
+    alt="Service Hero"
+    class="absolute inset-0 w-full h-full object-cover object-top md:object-[center_70%]"
+  />
+
+  <!-- Teks di tengah -->
+  <div class="absolute inset-0 flex items-center justify-center">
+    <h1 class="text-[100px] md:text-[90px] font-bold text-white drop-shadow-lg">
+      SERVICE PACK
+    </h1>
+  </div>
+</section>
+
 
     <!-- Introduction -->
     <section class="bg-[#b11919] px-6 py-8 text-center text-sm">
