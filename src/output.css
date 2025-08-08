@@ -993,7 +993,7 @@ video {
   font-size: 150px;
 }
 
-.text-sm {
+.text-[20px] {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
